@@ -1,0 +1,38 @@
+------ Workflow ------
+
+Create Project --> Title, Author, Summary
+
+List Project --> Series 1, Series 2
+
+View Project --> Series 1 - Title, Author, Summary
+    --> Add Chapter
+    --> List Chapters
+    --> Update Chapter
+    --> Delete Chapter
+
+Update Project --> Edit Title, Author, Summary
+
+Delete Project --> Delete the project
+
+-- MySQL Table Workflow --
+
+Main Database > (Project ID, Project, Project Database) > Project Database
+Details Database > (Project ID, Title, Author, Summary) > 
+
+-- Project Roles --
+
+TL, PR, RD, TS, QC
+
+--- Notes ---
+
+Check for functions to add Rich Text ( Colourful Text )
+
+--------------- Old Ideas ---------------
+
+Support for multiple series
+Summary + Raw site link
+Glossary for translators
+Status of chapter
+Assign work
+Staff pay rates for each series
+Calculate payment
