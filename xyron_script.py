@@ -15,9 +15,9 @@ Create Project          List Projects          View Project          Update Proj
 main_menu_list = ["create", "list", "view", "update", "delete", "exit"]
 
 view_menu_options = """
-Add Chapter          List Chapters          Update Chapter          Delete Chapter
+Add Chapter          List Chapters          Update Chapter          Delete Chapter          Return to Home
 """
-view_menu_list = ["add", "list", "update", "delete"]
+view_menu_list = ["add", "list", "update", "delete", "home"]
 
 role_status_list = ["pending", "ongoing", "completed"]
 
